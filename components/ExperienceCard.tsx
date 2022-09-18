@@ -51,28 +51,23 @@ function ExperienceCard({}: Props) {
 				<ul className="list-disc space-y-4 ml-5 text-lg">
 					<li>
 						summary pointssummary pointssummary pointssummary pointssummary
-						pointssummary pointssummary pointssummary pointssummary
-						pointssummary points
+						pointssummary pointssummary pointssummary
 					</li>
 					<li>
 						summary pointssummary pointssummary pointssummary pointssummary
-						pointssummary pointssummary pointssummary pointssummary
-						pointssummary points
+						pointssummary pointssummary pointssummary
 					</li>
 					<li>
 						summary pointssummary pointssummary pointssummary pointssummary
-						pointssummary pointssummary pointssummary pointssummary
-						pointssummary points
+						pointssummary pointssummary pointssummary
 					</li>
 					<li>
 						summary pointssummary pointssummary pointssummary pointssummary
-						pointssummary pointssummary pointssummary pointssummary
-						pointssummary points
+						pointssummary pointssummary pointssummary
 					</li>
 					<li>
 						summary pointssummary pointssummary pointssummary pointssummary
-						pointssummary pointssummary pointssummary pointssummary
-						pointssummary points
+						pointssummary pointssummary pointssummary
 					</li>
 				</ul>
 			</div>
