@@ -280,7 +280,7 @@
     event-source-polyfill "1.0.25"
     eventsource "^2.0.2"
 
-"@sanity/groq-store@^1.1.0":
+"@sanity/groq-store@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@sanity/groq-store/-/groq-store-1.1.4.tgz#0e94834190857151b03f98654743f3fde22fe21a"
   integrity sha512-xpUJqeP1sKD1VzzalvOIfodZpKmQTaP2lKFE68wnYDcoqG1+h1dCVTf8cWLX/y9jpvr8lxOwIil8QXeWNUj2Aw==
@@ -300,6 +300,16 @@
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-1.0.1.tgz#960d649b2f4396da0adb31cf94503c929495cea0"
   integrity sha512-AdKQ3zMk7WdoNwoJPrAvQhW+kUtBldBX0nHtnGy+rwmgsCQ0rAXasrgH43Fhmsp/yB6piiq+F2d5qEuBFsdQVg==
 
+"@sanity/preview-kit@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-kit/-/preview-kit-1.2.10.tgz#a8a5faf6365f29fb3534b75d533adc0c0275f63e"
+  integrity sha512-EUPlHHitEdtMk9yqd8k15OZwIowX0HBTHs9OOCGTHLU6S3Nx+sFnytr/kLLt3jMLVuK8fcS/1qLxGW/4JaMdqw==
+  dependencies:
+    "@sanity/groq-store" "^1.1.4"
+    "@types/event-source-polyfill" "^1.0.0"
+    event-source-polyfill "^1.0.31"
+    suspend-react "0.0.8"
+
 "@sanity/timed-out@^4.0.2":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@sanity/timed-out/-/timed-out-4.0.2.tgz#c9f61f9a1609baa1eb3e4235a24ea2a775022cdf"
@@ -315,12 +325,25 @@
     "@types/react" "^17.0.42"
     rxjs "^6.5.3"
 
+"@sanity/webhook@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@sanity/webhook/-/webhook-2.0.0.tgz#22e5916fd6ea616625b4105a68f2858408de8eee"
+  integrity sha512-KusHeWVy6yW3hcgVHbGx6qVv//bUj3CD9Nr0EOw086+mo/ESrUV21HjOCrNQ+AYqXvJ9H5qhqmMiuc8H5dXUGA==
+  dependencies:
+    base64url "^3.0.1"
+    tslib "^2.3.1"
+
 "@swc/helpers@0.4.14":
   version "0.4.14"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
   integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
+
+"@types/event-source-polyfill@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/event-source-polyfill/-/event-source-polyfill-1.0.0.tgz#f93f13433f750c8ea0e3cfa69c72e3c7393e0585"
+  integrity sha512-b8O8/rg7NIW0iJ8i9MNDBZqPljHA+b7AjC3QFqH3dSyW6vgrl3oBgyIv5dw2fibh5enHHDkkPZG5PHza7U4NRw==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -564,6 +587,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+base64url@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/base64url/-/base64url-3.0.1.tgz#6399d572e2bc3f90a9a8b22d5dbb0a32d33f788d"
+  integrity sha512-ir1UPr3dkwexU7FdV8qBBbNDRUhMmIekYMFZfi+C/sLNnRESKPl23nB9b2pltqfOQNnGzsDdId90AEtG5tCx4A==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -1096,6 +1124,11 @@ event-source-polyfill@1.0.25:
   version "1.0.25"
   resolved "https://registry.yarnpkg.com/event-source-polyfill/-/event-source-polyfill-1.0.25.tgz#d8bb7f99cb6f8119c2baf086d9f6ee0514b6d9c8"
   integrity sha512-hQxu6sN1Eq4JjoI7ITdQeGGUN193A2ra83qC0Ltm9I2UJVAten3OFVN6k5RX4YWeCS0BoC8xg/5czOCIHVosQg==
+
+event-source-polyfill@^1.0.31:
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/event-source-polyfill/-/event-source-polyfill-1.0.31.tgz#45fb0a6fc1375b2ba597361ba4287ffec5bf2e0c"
+  integrity sha512-4IJSItgS/41IxN5UVAVuAyczwZF7ZIEsM1XAoUzIHA6A+xzusEZUutdXz2Nr+MQPLxfTiCvqE79/C8HT8fKFvA==
 
 eventsource@^2.0.2:
   version "2.0.2"
@@ -1801,13 +1834,14 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-1.1.0.tgz#74fb470a7bdd33b471637eda09b791c969f79bad"
-  integrity sha512-E8N+aiNcbaPk2f0eRS8xscgy0huPUBiZJdAw5sCL/brtjSlrJl+1wOCcp+N5m4YwI5A2DRFvt5gpWdUgwjWCSw==
+next-sanity@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-3.1.3.tgz#c1b8e43e88db1828073fbe9c53e6d3751621dc82"
+  integrity sha512-8JqJ4IP3kBghr+gO40F3fTVIJs4mhPlY65TJ7p/z7zj1WuZPyuXSd5NoJGrEuM+p18cuoX5YQQj24HsEyLo7Sg==
   dependencies:
     "@sanity/client" "^3.4.1"
-    "@sanity/groq-store" "^1.1.0"
+    "@sanity/preview-kit" "^1.2.10"
+    "@sanity/webhook" "^2.0.0"
     groq "^2.33.2"
 
 next@13.0.5:
@@ -2445,6 +2479,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+suspend-react@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/suspend-react/-/suspend-react-0.0.8.tgz#b0740c1386b4eb652f17affe4339915ee268bd31"
+  integrity sha512-ZC3r8Hu1y0dIThzsGw0RLZplnX9yXwfItcvaIzJc2VQVi8TGyGDlu92syMB5ulybfvGLHAI5Ghzlk23UBPF8xg==
 
 synckit@^0.8.4:
   version "0.8.4"
