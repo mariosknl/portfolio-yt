@@ -263,6 +263,15 @@
     get-it "^8.3.0"
     rxjs "^7.0.0"
 
+"@sanity/client@^6.4.12":
+  version "6.4.12"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-6.4.12.tgz#34a1a543669157eba533e64b60359984ef9c6d33"
+  integrity sha512-TuseXC5z0CORO7wKMmhNTiKy/8vjWsN7/PTMy53MUBshlMYE2xPad2QFw1zr+n/7qvNNc/CQ6Y2wVnaXU9PHVg==
+  dependencies:
+    "@sanity/eventsource" "^5.0.0"
+    get-it "^8.4.3"
+    rxjs "^7.0.0"
+
 "@sanity/eventsource@5.0.0", "@sanity/eventsource@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@sanity/eventsource/-/eventsource-5.0.0.tgz#45410c8259e0bb80b4e308e1872846439590805a"
@@ -1260,6 +1269,22 @@ get-it@^8.3.0:
     progress-stream "^2.0.0"
     tunnel-agent "^0.6.0"
 
+get-it@^8.4.3:
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.4.3.tgz#f5d05fb95644c5414afa6f5dfd3a927820472f7f"
+  integrity sha512-H9YbPCN3QCbxtojv42fvmrkIYe434qKg1nKpMMtBqwL8U3XprnHMgDbQwMJIxSIFOPpajQPf0BxhjsHoFI0cEQ==
+  dependencies:
+    debug "^4.3.4"
+    decompress-response "^7.0.0"
+    follow-redirects "^1.15.2"
+    into-stream "^6.0.0"
+    is-plain-object "^5.0.0"
+    is-retry-allowed "^2.2.0"
+    is-stream "^2.0.1"
+    parse-headers "^2.0.5"
+    progress-stream "^2.0.0"
+    tunnel-agent "^0.6.0"
+
 get-symbol-description@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/get-symbol-description/-/get-symbol-description-1.0.0.tgz#7fdb81c900101fbd564dd5f1a30af5aadc1e58d6"
@@ -1836,11 +1861,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@5.4.6:
-  version "5.4.6"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.4.6.tgz#3d9cf8802c7a48662cfb43841745ab89b7a37917"
-  integrity sha512-VgbLxYfgzLETNXKuvShhtaYKlz7DDb5QlFvvjf0eF82lIevI1c0jGHgPRhOTRuv0csvy9FVFCyMlxoc+BkAVmQ==
+next-sanity@5.5.4:
+  version "5.5.4"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-5.5.4.tgz#8b1b957c4937310061de6cd677ac15e5f1ee1fb3"
+  integrity sha512-hXpTbubgazoJO1cSb+OuGCtRbq7Fby/MYpZnU9IRoiPZS50UVz8lPWflFUfTq/j+pCerPpp31qDwCjY+Op6KcA==
   dependencies:
+    "@sanity/client" "^6.4.12"
     "@sanity/preview-kit" "3.1.6"
     "@sanity/webhook" "3.0.1"
     groq "^3.0.0"
