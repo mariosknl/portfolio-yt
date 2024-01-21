@@ -12,10 +12,17 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@babel/runtime@^7.20.7", "@babel/runtime@^7.22.11":
+"@babel/runtime@^7.20.7":
   version "7.22.15"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.15.tgz#38f46494ccf6cf020bd4eed7124b425e83e523b8"
   integrity sha512-T0O+aa+4w0u06iNmapipJXMV4HoUir03hpx3/YqXXhu9xim3w+dVphjFWl1OH8NbZHw5Lbm9k45drDkgq2VNNA==
+  dependencies:
+    regenerator-runtime "^0.14.0"
+
+"@babel/runtime@^7.23.8":
+  version "7.23.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.8.tgz#8ee6fe1ac47add7122902f257b8ddf55c898f650"
+  integrity sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -2469,12 +2476,12 @@ react-simple-typewriter@5.0.1:
   resolved "https://registry.yarnpkg.com/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz#cfdb896c868a55ed4d5f1f06d62b3a9d0f5ad9d7"
   integrity sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==
 
-react-social-icons@6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-6.7.0.tgz#b1929cd84c12a5742f7fb3e8c1167f3ab158586d"
-  integrity sha512-SgqFyhK8CNNkthPDUCVnvb6n/wa2LxAFrFKT7/0aDDXZfEkQkZnfraJnO36YJGL6iXeIchBs8aKam1awbJv9QA==
+react-social-icons@6.9.0:
+  version "6.9.0"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-6.9.0.tgz#ed9b78319e1b1c9edefb67115fd9e1682716740a"
+  integrity sha512-JQjki4pqtp38VRDRK9z1vQ71F/nZvHzBF4Zw3HtVM5+H24baXaLNvrzdtS939qBDAF9ZxwnIQFb9HbU67/+9xA==
   dependencies:
-    "@babel/runtime" "^7.22.11"
+    "@babel/runtime" "^7.23.8"
     react "^18.2.0"
     react-dom "^18.2.0"
 
