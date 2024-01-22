@@ -2545,10 +2545,10 @@ react-simple-typewriter@5.0.1:
   resolved "https://registry.yarnpkg.com/react-simple-typewriter/-/react-simple-typewriter-5.0.1.tgz#cfdb896c868a55ed4d5f1f06d62b3a9d0f5ad9d7"
   integrity sha512-vA5HkABwJKL/DJ4RshSlY/igdr+FiVY4MLsSQYJX6FZG/f1/VwN4y1i3mPXRyfaswrvI8xii1kOVe1dYtO2Row==
 
-react-social-icons@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-6.9.0.tgz#ed9b78319e1b1c9edefb67115fd9e1682716740a"
-  integrity sha512-JQjki4pqtp38VRDRK9z1vQ71F/nZvHzBF4Zw3HtVM5+H24baXaLNvrzdtS939qBDAF9ZxwnIQFb9HbU67/+9xA==
+react-social-icons@6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-6.10.0.tgz#6498726ef445d1ea2d8ba11bc03ba0621f48e740"
+  integrity sha512-b4sbTE7vZBYF2yIa/ObMb6ZfMexnMF+OnciLv1ujzaioiBabZjSMeYS9Pp4Kh6BAeYejF/QByctns4abqy37rA==
   dependencies:
     "@babel/runtime" "^7.23.8"
     react "^18.2.0"
