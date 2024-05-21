@@ -3147,10 +3147,10 @@
     react-popper "^2.2.5"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^2.1.6":
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.1.6.tgz#572d369fc0213fecd39898db0784527f7301206f"
-  integrity sha512-dKhpce2ONy0shM4EbiEKiLuJtLesqU58ncD6Eb6uXMeq/St6Rzah3Hy23+WlCoBRu2saO2FtikHgHqbzz/66bg==
+"@sanity/ui@^2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.1.11.tgz#51c53e5cf84992eb227196d7f8eb24511863e468"
+  integrity sha512-4iEfzMb6+fkqnSy+n5is5DUjziA/FJcwLEKzKKhJF5WJ3w15rajSK9n0k4+0lT+BouB6LHVgbg+uBBLQxD0PvQ==
   dependencies:
     "@floating-ui/react-dom" "^2.0.9"
     "@sanity/color" "^3.0.6"
@@ -3199,10 +3199,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.41.1":
-  version "3.41.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.41.1.tgz#ab359eda233dc8c63ca8772144e7d045cd3bce46"
-  integrity sha512-I1qaCgb5w788fFsQpumtSeJAOTPJrfyTealZHhObY/OnvbkouOfkY9K+hX5QsuqJfcpppUCBKC/bt3NtRx8zpA==
+"@sanity/vision@3.43.0":
+  version "3.43.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.43.0.tgz#0b74f2a26283848464bff4ee4f67ac6126dcad88"
+  integrity sha512-mcsgw+fN9vKMFnGYtMZhAzOLG5XPPPKK841CG8fYIu2y8Qbww+peC6pWpWKUC2TONkXjcjUS4guUFxcHIlMsvg==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3217,9 +3217,10 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^2.11.0"
-    "@sanity/ui" "^2.1.6"
+    "@sanity/ui" "^2.1.11"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
+    json-2-csv "^5.5.1"
     json5 "^2.2.3"
     lodash "^4.17.21"
     quick-lru "^5.1.1"
@@ -5479,6 +5480,11 @@ decompress-response@^6.0.0:
   dependencies:
     mimic-response "^3.1.0"
 
+deeks@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/deeks/-/deeks-3.1.0.tgz#ecc47c600bcc6dbda656c6d86bbc96cbe126fd41"
+  integrity sha512-e7oWH1LzIdv/prMQ7pmlDlaVoL64glqzvNgkgQNgyec9ORPHrT2jaOqMtRyqJuwWjtfb6v+2rk9pmaHj+F137A==
+
 deep-is@^0.1.3, deep-is@~0.1.3:
   version "0.1.4"
   resolved "https://registry.npmjs.org/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
@@ -5597,6 +5603,11 @@ direction@^1.0.3:
   version "1.0.4"
   resolved "https://registry.npmjs.org/direction/-/direction-1.0.4.tgz#2b86fb686967e987088caf8b89059370d4837442"
   integrity sha512-GYqKi1aH7PJXxdhTeZBFrg8vUBeKXi+cNprXsC1kpJcbcVnV9wBsrOu1cQEdG0WeQwlfHiy3XvnKfIrJ2R0NzQ==
+
+doc-path@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/doc-path/-/doc-path-4.1.1.tgz#5be8c1671877f6b719af5a6077c41904be8913ac"
+  integrity sha512-h1ErTglQAVv2gCnOpD3sFS6uolDbOKHDU1BZq+Kl3npPqroU3dYL42lUgMfd5UimlwtRgp7C9dLGwqQ5D2HYgQ==
 
 doctrine@^2.1.0:
   version "2.1.0"
@@ -8151,6 +8162,14 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha512-uZz5UnB7u4T9LvwmFqXii7pZSouaRPorGs5who1Ip7VO0wxanFvBL7GkM6dTHlgX+jhBApRetaWpnDabOeTcnA==
+
+json-2-csv@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/json-2-csv/-/json-2-csv-5.5.1.tgz#2ad4e69d4b2bb4590203948a36f11347a4d7aed9"
+  integrity sha512-KgAtAXTQopRwe90gh8SgjRSxgt9bUWbGAPMo9W0TZLA8SqiQH7khtagFfeEUjG3NBPwJu/+9uX5pMvunKaPvrQ==
+  dependencies:
+    deeks "3.1.0"
+    doc-path "4.1.1"
 
 json-buffer@3.0.1:
   version "3.0.1"
