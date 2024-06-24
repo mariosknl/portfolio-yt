@@ -3142,10 +3142,10 @@
     react-popper "^2.2.5"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^2.1.14":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.3.1.tgz#008765ada3f251aef14551967b034de6f9a16907"
-  integrity sha512-l4lrXyCuXChQv0iiQsj5zRi0KQiCiZ1HOnI3eQHAujsYJndCuQxt+FhqSJCqKNXz0nTQVu7tEs0CE8H9PLh4/w==
+"@sanity/ui@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.4.0.tgz#cac61bce899e9921bc79ac374528485cfc9deb95"
+  integrity sha512-K7bxEqFAAHzvM+fuMhaIgF9MpvClbvW0V61qwEI4vE20XKqfmhvjdlEAMEU/stMNBFEdX7tVdXb0D4xtVuciBg==
   dependencies:
     "@floating-ui/react-dom" "^2.1.0"
     "@sanity/color" "^3.0.6"
@@ -3194,10 +3194,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.45.0":
-  version "3.45.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.45.0.tgz#e55e60924d668578dcc77fb15854ddca00c2691e"
-  integrity sha512-WXVmhSi0OsqE5e5ifxOQmdkLHqtWIRKYnEls4IUNOrR8+wJ6i5747AxgoobEDAPpS+z1Cscu1C6HTAOrBkHV+A==
+"@sanity/vision@3.47.1":
+  version "3.47.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.47.1.tgz#84c9c36386910d4012b1b4575581da2124409285"
+  integrity sha512-Y3TqCvW/5MAkemWfV2ZbEMUCd5F4Kv0eo+gr8XNX3iCVmhUWDa8tuHw1W13ZBDk4n4zheBYjjxJfFoTwCX6jgQ==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3212,7 +3212,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.0.0"
-    "@sanity/ui" "^2.1.14"
+    "@sanity/ui" "^2.4.0"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
