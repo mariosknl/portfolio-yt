@@ -2221,10 +2221,10 @@
     "@floating-ui/core" "^1.0.0"
     "@floating-ui/utils" "^0.2.0"
 
-"@floating-ui/react-dom@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.0.tgz#4f0e5e9920137874b2405f7d6c862873baf4beff"
-  integrity sha512-lNzj5EQmEKn5FFKc04+zasr09h/uX8RtJRNj5gUXsSQIXHVWTVh+hVAg1vOMCexkX8EgvemMvIFpQfkosnVNyA==
+"@floating-ui/react-dom@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@floating-ui/react-dom/-/react-dom-2.1.1.tgz#cca58b6b04fc92b4c39288252e285e0422291fb0"
+  integrity sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==
   dependencies:
     "@floating-ui/dom" "^1.0.0"
 
@@ -2878,10 +2878,10 @@
   resolved "https://registry.npmjs.org/@sanity/icons/-/icons-1.3.6.tgz#4de4848304bf8487e1c08188decbb0ba5e86a158"
   integrity sha512-/GeFmwHMQVTCBvo4qAQgZJHKB1UzU8u42gnjs6696PWh626G4xbElb3/YJ9sM1PwTc0OaYrvIDes8qUTvrlhrA==
 
-"@sanity/icons@^3.0.0", "@sanity/icons@^3.2.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.2.0.tgz#0caaf5d00d2247a535a1e787a533afa516ac81f8"
-  integrity sha512-550sRrW0Y99mt9NrVmpzk8FjR3/i2ZhJjjoGY1GUu33Mp+v98tNtBU32BXb4/caV+M1/f0dMXbNpnagdkbXo5Q==
+"@sanity/icons@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-3.3.0.tgz#2e2fb68f80a4c43392c038a5c284db8c75b1a3c1"
+  integrity sha512-xLOn1sneanShXXBt/OLasCded5Oe2JLnInqDuEHi0NAQzoYQNHSmRj/yCsrl7f3T8YoiJKxaS2U2jrEvMlmSPw==
 
 "@sanity/image-url@^1.0.1":
   version "1.0.1"
@@ -3142,14 +3142,14 @@
     react-popper "^2.2.5"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^2.4.0":
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.4.0.tgz#cac61bce899e9921bc79ac374528485cfc9deb95"
-  integrity sha512-K7bxEqFAAHzvM+fuMhaIgF9MpvClbvW0V61qwEI4vE20XKqfmhvjdlEAMEU/stMNBFEdX7tVdXb0D4xtVuciBg==
+"@sanity/ui@^2.6.7":
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.6.7.tgz#7ff66d207f2ecdcc676c61da20ab89a2654086ce"
+  integrity sha512-+vUE7xuXUzo5kSkr8NrEluLOvdyvUReWQOciUiv2dqeT/AZ6wo4gnJNujUIakIe0Y7HdGAAs0spBVSssX2PGUQ==
   dependencies:
-    "@floating-ui/react-dom" "^2.1.0"
+    "@floating-ui/react-dom" "^2.1.1"
     "@sanity/color" "^3.0.6"
-    "@sanity/icons" "^3.2.0"
+    "@sanity/icons" "^3.3.0"
     csstype "^3.1.3"
     framer-motion "11.0.8"
     react-refractor "^2.2.0"
@@ -3194,10 +3194,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.47.1":
-  version "3.47.1"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.47.1.tgz#84c9c36386910d4012b1b4575581da2124409285"
-  integrity sha512-Y3TqCvW/5MAkemWfV2ZbEMUCd5F4Kv0eo+gr8XNX3iCVmhUWDa8tuHw1W13ZBDk4n4zheBYjjxJfFoTwCX6jgQ==
+"@sanity/vision@3.50.0":
+  version "3.50.0"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.50.0.tgz#b57a9d817b9e50d86586cb6704e48ab0a7edb7ab"
+  integrity sha512-xQBi20eB1GjCDSH6F1reezcHsK1TGwmBDKWZv6ZY1n1s6VYlb4JflmANZMk4X2LsRXA2WWc9Ba/4d0GuKRYy+A==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3211,8 +3211,8 @@
     "@rexxars/react-json-inspector" "^8.0.1"
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
-    "@sanity/icons" "^3.0.0"
-    "@sanity/ui" "^2.4.0"
+    "@sanity/icons" "^3.3.0"
+    "@sanity/ui" "^2.6.7"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
