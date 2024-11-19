@@ -3172,17 +3172,17 @@
     react-popper "^2.2.5"
     react-refractor "^2.1.7"
 
-"@sanity/ui@^2.8.19":
-  version "2.8.23"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.23.tgz#e93e1cf15fb7f983f8354af56ac517fac079af77"
-  integrity sha512-Xu73u6/l/c/rqRg6KbOoq98QubbuIJ0TT/13lWloEzvBI8Hq84WMSjPG9pyAYy3UhszVyOjm8lLxKMGE4/W20Q==
+"@sanity/ui@^2.8.23":
+  version "2.8.24"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-2.8.24.tgz#ebab092c9ffb1d2597cef6edf0f03a5901ccbd93"
+  integrity sha512-jSozL3SqV+ydzFmam0djz1gFqVCXIvI6m3ZgWiBHK1HFfXPfGfVAHHDprruhFVt6lJ8sHS5XI8JgRMWYjW3TEw==
   dependencies:
     "@floating-ui/react-dom" "^2.1.2"
     "@sanity/color" "^3.0.6"
     "@sanity/icons" "^3.4.0"
     csstype "^3.1.3"
     framer-motion "11.0.8"
-    react-compiler-runtime "19.0.0-beta-a7bf2bd-20241110"
+    react-compiler-runtime "19.0.0-beta-0dec889-20241115"
     react-refractor "^2.2.0"
     use-effect-event "^1.0.2"
 
@@ -3226,10 +3226,10 @@
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@sanity/vision@3.63.0":
-  version "3.63.0"
-  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.63.0.tgz#cbbce0c746c9ea16cddc7b3c6e9c8b8dd019815e"
-  integrity sha512-mDd3HcgYlP9g9dmTHLkc/kwHhLJ2yGksVTYne3f9mse7cE2Dp6ImAIANmkNVI6LR+X08PRjGtAeVL+ua465yEA==
+"@sanity/vision@3.64.1":
+  version "3.64.1"
+  resolved "https://registry.yarnpkg.com/@sanity/vision/-/vision-3.64.1.tgz#13adf7be6ad907eb7eb858c7e3dedff2c913d039"
+  integrity sha512-iGEPcP2JCFFCvaDCqLcQhnvVHmaHZ3xS6q9ZPaEPl9l5j/pNS0CSeJdvHak4pDOZua3t2VxBgaK6onEDMqYpPg==
   dependencies:
     "@codemirror/autocomplete" "^6.1.0"
     "@codemirror/commands" "^6.0.1"
@@ -3244,7 +3244,7 @@
     "@rexxars/react-split-pane" "^0.1.93"
     "@sanity/color" "^3.0.0"
     "@sanity/icons" "^3.4.0"
-    "@sanity/ui" "^2.8.19"
+    "@sanity/ui" "^2.8.23"
     "@uiw/react-codemirror" "^4.11.4"
     is-hotkey-esm "^1.0.0"
     json-2-csv "^5.5.1"
@@ -10675,10 +10675,10 @@ react-clientside-effect@^1.2.6:
   dependencies:
     "@babel/runtime" "^7.12.13"
 
-react-compiler-runtime@19.0.0-beta-a7bf2bd-20241110:
-  version "19.0.0-beta-a7bf2bd-20241110"
-  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-a7bf2bd-20241110.tgz#58587b1a05d50f78f0a72f5e857d541f5dcb5cd1"
-  integrity sha512-cSkrfz2eGcC9UZ/83mLf3aqKKDVjFkWJeA/kiYLwKTNp7B0Lq5M1FQ3vTfgSC027fK5ZutXU/JsCS5KxTwk8Mg==
+react-compiler-runtime@19.0.0-beta-0dec889-20241115:
+  version "19.0.0-beta-0dec889-20241115"
+  resolved "https://registry.yarnpkg.com/react-compiler-runtime/-/react-compiler-runtime-19.0.0-beta-0dec889-20241115.tgz#d316f7c8205d131000203ce51a0ce23c1822ac7d"
+  integrity sha512-dL5zzfEvM2dyDnaACP/HkY57/sDPR4R1Q9gPjEFk/3qO7coNc76W0dm3bRypTBNf9sGDuBI+HZSdusVUIbep4Q==
 
 react-copy-to-clipboard@^5.0.4:
   version "5.1.0"
