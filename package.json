@@ -13,7 +13,7 @@
     "@portabletext/react": "3.2.0",
     "@sanity/image-url": "1.1.0",
     "framer-motion": "12.4.1",
-    "next-sanity": "9.8.40",
+    "next-sanity": "9.8.54",
     "next": "15.1.6",
     "react": "19.0.0",
     "react-dom": "19.0.0",
