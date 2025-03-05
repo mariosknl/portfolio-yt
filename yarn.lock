@@ -3679,10 +3679,10 @@ tailwind-scrollbar@4.0.0:
   dependencies:
     prism-react-renderer "^2.4.1"
 
-tailwindcss@4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.5.tgz#725c1b8589707e6d079b9940978d761be4a99b6b"
-  integrity sha512-DZZIKX3tA23LGTjHdnwlJOTxfICD1cPeykLLsYF1RQBI9QsCR3i0szohJfJDVjr6aNRAIio5WVO7FGB77fRHwg==
+tailwindcss@4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-4.0.10.tgz#42981b8b7e3918b856adffd7e29a896059366296"
+  integrity sha512-Z8U/6E2BWSdDkt3IWPiphoV+8V6aNzRmu2SriSbuhm6i3QIcY3TdUJzUP5NX8M8MZuIl+v4/77Rer8u4YSrSsg==
 
 tapable@^2.2.0:
   version "2.2.1"
