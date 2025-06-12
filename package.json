@@ -30,7 +30,7 @@
     "postcss": "8.5.3",
     "eslint": "9.27.0",
     "tailwind-scrollbar": "4.0.2",
-    "tailwindcss": "4.1.7",
+    "tailwindcss": "4.1.10",
     "typescript": "5.8.3"
   }
 }
