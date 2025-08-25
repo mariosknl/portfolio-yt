@@ -386,13 +386,21 @@
     tiny-glob "^0.2.9"
     tslib "^2.4.0"
 
-"@portabletext/react@3.2.1", "@portabletext/react@^3.2.1":
+"@portabletext/react@3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.2.1.tgz#9fc19c9bfef3b2c2e6b71628e7879d1f343446cf"
   integrity sha512-RyFLk6u2q6ZyABTdOk+xoNR2Tq/4fcQFEWayNk4Kbd3gHpUUTabqOrDMChcmG6C7YVLSpwIEBwHoBVcy4vK/hA==
   dependencies:
     "@portabletext/toolkit" "^2.0.17"
     "@portabletext/types" "^2.0.13"
+
+"@portabletext/react@^3.2.4":
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/@portabletext/react/-/react-3.2.4.tgz#38d4892a7b031fbd16fd2d476737375aefb3e381"
+  integrity sha512-Gq0BaIBw6PMXnN1M9clG7vOa952O4F+CTfANLH/NaxiH5eI1sOx3IoGoGLnPPUTxCKq3F380gz4ycz6WzMtu0Q==
+  dependencies:
+    "@portabletext/toolkit" "^2.0.18"
+    "@portabletext/types" "^2.0.15"
 
 "@portabletext/toolkit@^2.0.17":
   version "2.0.17"
@@ -401,10 +409,22 @@
   dependencies:
     "@portabletext/types" "^2.0.13"
 
+"@portabletext/toolkit@^2.0.18":
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@portabletext/toolkit/-/toolkit-2.0.18.tgz#71a5563a6d7fe5321299dfaaf9db61f4892231ba"
+  integrity sha512-m3v2WwKQTNNk5BFZlUuPuCW0Zi6iDSpwrium4Ej5L2FHDXhFuwAyEMPXDrvwPvqjES/oJzcwmdKLMhYa44T9BQ==
+  dependencies:
+    "@portabletext/types" "^2.0.13"
+
 "@portabletext/types@^2.0.13":
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/@portabletext/types/-/types-2.0.13.tgz#7a4bf6dac30713fbe1b4bc01dc572af0af72955d"
   integrity sha512-5xk5MSyQU9CrDho3Rsguj38jhijhD36Mk8S6mZo3huv6PM+t4M/5kJN2KFIxgvt4ONpvOEs1pVIZAV0cL0Vi+Q==
+
+"@portabletext/types@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@portabletext/types/-/types-2.0.15.tgz#afc1231fd66965d777c6233aea79abfaf8716351"
+  integrity sha512-2e6i2gSQsrA/5OL5Gm4/9bxB9MNO73Fa47zj+0mT93xkoQUCGCWX5fZh1YBJ86hszaRYlqvqG08oULxvvPPp/Q==
 
 "@rtsao/scc@^1.1.0":
   version "1.1.0"
@@ -429,6 +449,16 @@
   version "7.8.2"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.8.2.tgz#4ce325cf4bb252ae435cf505ee90f6c7c2e79055"
   integrity sha512-Me3/eh71VFdbSHghuea80rcDQZir/NgtwANKug/mPbbwwENYASJSEHpAy2VZwn4FyHHIR9d2pNRIyXMzGab+dQ==
+  dependencies:
+    "@sanity/eventsource" "^5.0.2"
+    get-it "^8.6.9"
+    nanoid "^3.3.11"
+    rxjs "^7.0.0"
+
+"@sanity/client@^7.9.0":
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.9.0.tgz#7a0459e7bebc8b2e3a8871e5d53209f5adcbf88a"
+  integrity sha512-CTkelmFDylaIXw8M76GkkfJyYd/f9NFcsLwhuLU0NOqNcnwqlTqUWyy6MY7h5IJC9IJbDttZeRhMwnc/WGcLXg==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
     get-it "^8.6.9"
@@ -497,10 +527,10 @@
     mendoza "^3.0.7"
     rxjs "^7.8.1"
 
-"@sanity/next-loader@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-2.0.0.tgz#0c8739da3b748ab4b9c43bef3772a918d183fff7"
-  integrity sha512-fTWYPr298Xga9AtdgG2lK7X89YK+lQdW+tmPbszrSyecjmdr47Ldl5fbqNcTf8ybahPheueEpmvHaAReCE4sIA==
+"@sanity/next-loader@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-2.1.0.tgz#63da6426dea7a47a371f711ae09abe060caa34f6"
+  integrity sha512-ta9HPqGpVQNv5NYTV5X9HNa2m7AJi1ixUVHVbOwGLfdm2D5FWALuCYlQ8GvtaCIxCakOtLLmUSVt9d8wFM83xQ==
   dependencies:
     "@sanity/client" "^7.8.2"
     "@sanity/comlink" "^3.0.9"
@@ -559,10 +589,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.1.5.tgz#b73994f33e3f33fda5184c1bee2286ab81e96f44"
   integrity sha512-jDQyO59R9TG7QC6XQ5n8PVWCVRdebez1ws9d8j1HVmPzjIhWRkyQbA/xrfrtYDPo/vuVD8wUbkXOh1TScITVXQ==
 
-"@sanity/visual-editing@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-3.0.2.tgz#4c66bcdb24fa9f5187f5558d03e65ac62f33e997"
-  integrity sha512-Qk88oaJxBbYl9NUWpf+k9MHhRi4GLXczpmEb47NqJKkJnyONan5QoCE8urABLQ6/D9fRW4R+vgktGS5JRDZSQg==
+"@sanity/visual-editing@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-3.0.3.tgz#886d6d6fbc9209cbf587a6b19291cac8113ba328"
+  integrity sha512-y5SL+6jfhjp3UeQk67ZRxosa2XZCID8hyvvGF+jrkwxiRr21ABwoxDo8msNGjNFiwKCT/pn7/eTQbsEECrdWgg==
   dependencies:
     "@sanity/comlink" "^3.0.9"
     "@sanity/icons" "^3.7.4"
@@ -2103,10 +2133,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-groq@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-4.3.0.tgz#2e22d0a73d95221b9f7e3dec5db604b5ba94b809"
-  integrity sha512-DVlxad9N9vY+7h8hPo+WKDpIKtJO2XBmg6ZyJBqr4A3BLVx4SJhenTuPU18YzLqn7+ceOsIPw0RMMyD4mD04Pw==
+groq@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-4.5.0.tgz#73ffc97307f6d8e242d20153d5af4112f61033b9"
+  integrity sha512-gAvcn4Y6KUwH/DVS59vIBw5kxzFlV8KDaKqa0M+BOa6EdzuoTeXSpGIH1wmKT+Yv6w3XqPVw5ArKQWsG810hog==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
@@ -2744,17 +2774,17 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@10.0.10:
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.0.10.tgz#8fc43c73e236c49cbb98acb4d62566e5aab3595c"
-  integrity sha512-/E514CTl0Ptj51ZhqF4XJ9MqVjxtXG8nH/pF1RvKmt6Fuww2s62TCT8LTGCBKRPj9Kr+QnFru7vYtdoEpx40SA==
+next-sanity@10.0.14:
+  version "10.0.14"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.0.14.tgz#5b2a7c711c49b491d00715bc42fb19d550993488"
+  integrity sha512-M+OlW5br8BkvZXeWE2kXBw3nT5bAuN2B3t3Sa3/ZyOBSEMFbupCEDn7W7cEO0d9bcVJfn/Y4xCvhr6+wn4ezsQ==
   dependencies:
-    "@portabletext/react" "^3.2.1"
-    "@sanity/client" "^7.8.2"
-    "@sanity/next-loader" "^2.0.0"
+    "@portabletext/react" "^3.2.4"
+    "@sanity/client" "^7.9.0"
+    "@sanity/next-loader" "^2.1.0"
     "@sanity/preview-url-secret" "^2.1.14"
-    "@sanity/visual-editing" "^3.0.2"
-    groq "^4.3.0"
+    "@sanity/visual-editing" "^3.0.3"
+    groq "^4.5.0"
     history "^5.3.0"
 
 next@15.4.6:
