@@ -507,7 +507,7 @@
     mendoza "^3.0.7"
     rxjs "^7.8.1"
 
-"@sanity/next-loader@^2.1.0":
+"@sanity/next-loader@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@sanity/next-loader/-/next-loader-2.1.1.tgz#861ef9ef30a814bb7712a0763bbc47cebbd01ac5"
   integrity sha512-VOm4cNfZyo1kiJb4xdn3GTPYaBdL9tuK7vJi1S1lJY/fq8YtCEvO0hUqHZWcqGRnqKHNmLNt6iQ2iJf8BqglUA==
@@ -569,7 +569,7 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-1.1.6.tgz#70c47db5dc4316071997eade4d27a973a9c7814f"
   integrity sha512-CJlbFdQa0PeMhdX6mzmnu1QAhojrd/vLpPaeOFlGNXwCEgQTEoK9nR4510SQqkX6skx0uvb0YICc8M0nWVCsbw==
 
-"@sanity/visual-editing@^3.0.3":
+"@sanity/visual-editing@^3.0.4":
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-3.0.4.tgz#18037c517fc198a01382e0f0c7e1893e6f13bed5"
   integrity sha512-c/+Cf6fkiZmSfkmA0ZC+Z2pPifBfgHCs25DUbyedJPzNBL3VoRFnnHWOtyjnnlRKrp6n239AGyO5KLaJ6EQXJw==
@@ -2754,16 +2754,16 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@10.0.16:
-  version "10.0.16"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.0.16.tgz#70e2de0168e8f30bcc1f095f77632b3f9d93397b"
-  integrity sha512-x3BdTyYbtJgRg2a7gQPMsf45f2GfUvnnyRlMBlisW/psK5oTEB8mIEUjR7B/zJhVGqDQADzFzUg4Zi/TSCUxLw==
+next-sanity@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-10.1.1.tgz#71157fdc5ca6da3f504e710b469c86a4b01c4adb"
+  integrity sha512-qH2IX2Tarc29f/HALHIIH3mHwKAG92uZ/hezICoQ6ZJaJ0nLZgwvy6vASqYFXnU1ubOE+MfxLBJeEPvv6G5nxA==
   dependencies:
     "@portabletext/react" "^4.0.3"
     "@sanity/client" "^7.11.0"
-    "@sanity/next-loader" "^2.1.0"
+    "@sanity/next-loader" "^2.1.1"
     "@sanity/preview-url-secret" "^2.1.14"
-    "@sanity/visual-editing" "^3.0.3"
+    "@sanity/visual-editing" "^3.0.4"
     groq "^4.6.1"
     history "^5.3.0"
 
