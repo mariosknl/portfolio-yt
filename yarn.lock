@@ -2117,10 +2117,10 @@ graphemer@^1.4.0:
   resolved "https://registry.yarnpkg.com/graphemer/-/graphemer-1.4.0.tgz#fb2f1d55e0e3a1849aeffc90c4fa0dd53a0e66c6"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-groq@^4.13.0:
-  version "4.14.2"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-4.14.2.tgz#1665c57471ce3b07dd80c58c16a84a9b784d2200"
-  integrity sha512-ttevjqHQsubaI4gmmft2NkL+ppbzumF4O58m/zLRMhiHTPnRu4PE3T90uihWn45uXELITSSstpT6JgwJq54BSw==
+groq@^4.14.2:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-4.15.0.tgz#4ab53c501c580410efe0a560189056f1bb3b1cc8"
+  integrity sha512-RB6juU52O5n+jwHOQ1fZl33/KMH+KosNJ13K5ArUj8bQnSg3lTnNZr/3Tswk961KPA6lplN+p45eouh2OVXKTQ==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
@@ -2766,10 +2766,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@11.6.5:
-  version "11.6.5"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-11.6.5.tgz#a3a711d9835a5f707caca5130e21650118c63454"
-  integrity sha512-HdpPKCgMfMALJOd15+MdOqO2eRKVdNq/w6EekU9WaSNN4ak9crTm/P5WicE7AjR/Drb1qx8r7HL/4alxhZSsgA==
+next-sanity@11.6.6:
+  version "11.6.6"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-11.6.6.tgz#0c59e42f3c6f32e3671cab2dcfe88ab9b936ce43"
+  integrity sha512-SN3atTSqJSyBuJJAWrIxAgHWOT8JXgDd6Ejk1sNHrLwEZMjmLooAjlmaVhZ2dknRFqMt0k3rhKOfQrz9nf9mkQ==
   dependencies:
     "@portabletext/react" "^5.0.0"
     "@sanity/client" "^7.12.1"
@@ -2778,7 +2778,7 @@ next-sanity@11.6.5:
     "@sanity/preview-url-secret" "^2.1.15"
     "@sanity/visual-editing" "^4.0.0"
     dequal "^2.0.3"
-    groq "^4.13.0"
+    groq "^4.14.2"
     history "^5.3.0"
     server-only "^0.0.1"
     use-effect-event "^2.0.3"
