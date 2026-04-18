@@ -584,13 +584,13 @@
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
-"@sanity/client@^7.20.0":
-  version "7.20.0"
-  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.20.0.tgz#ec10836112336e6469d191149f184b84a1f44a0c"
-  integrity sha512-uKwfqA+UfyWH6QzqpDD2DQnZu+WRa2iCM3OJ9AoyDZB9oHLl2NKI+9mX1xEZ7PiBuq09pogI7sxKaTKnaB6d+g==
+"@sanity/client@^7.21.0":
+  version "7.21.0"
+  resolved "https://registry.yarnpkg.com/@sanity/client/-/client-7.21.0.tgz#0f9819558d27c56f1466559f06fbfe70cf3bbc39"
+  integrity sha512-j3SdOGy9ggQSj9LtlrV8x4jaZgJmyYKNB5cXpXWkMLgi2/v0U+OTu0mHj17smioTdQSCHuVyJaxGcdpu3hxoOA==
   dependencies:
     "@sanity/eventsource" "^5.0.2"
-    get-it "^8.7.0"
+    get-it "^8.7.2"
     nanoid "^3.3.11"
     rxjs "^7.0.0"
 
@@ -681,6 +681,13 @@
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-4.0.4.tgz#dda439632e689550e75bee511fd393669f8ecff1"
   integrity sha512-/xu3OwII4h7hoA9oMVpPIGDfVkKW8xg92dGdN9ofjwEPqgmU8/RJkGYrDrs+LIfmOYzhkslcY9BgecCqQzt3lw==
+  dependencies:
+    "@sanity/uuid" "3.0.2"
+
+"@sanity/preview-url-secret@^4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-4.0.5.tgz#4f0f4c96a7295ceb63d5ae43fee66498cd498ddc"
+  integrity sha512-49MozhFS8U5RxnNL3+WtCgX2v554dtmoR79amzT4dYu1beV+6BQGcro1VeC+bgW9XeZCg6o2rCKbvnu7ukQbKg==
   dependencies:
     "@sanity/uuid" "3.0.2"
 
@@ -2416,6 +2423,16 @@ get-it@^8.7.0:
     through2 "^4.0.2"
     tunnel-agent "^0.6.0"
 
+get-it@^8.7.2:
+  version "8.7.2"
+  resolved "https://registry.yarnpkg.com/get-it/-/get-it-8.7.2.tgz#a015ff618901f3b751e471774cf4e9015b1a82ba"
+  integrity sha512-slSwC/BBAnoz9OnHopU+V5pJKAieddoF6dmx2CvbWMRePgup8ftiB+D7d+pr2PZzcqNtZOVDMoLOsXGsERhTEg==
+  dependencies:
+    decompress-response "^7.0.0"
+    is-retry-allowed "^2.2.0"
+    through2 "^4.0.2"
+    tunnel-agent "^0.6.0"
+
 get-proto@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/get-proto/-/get-proto-1.0.1.tgz#150b3f2743869ef3e851ec0c49d15b1d14d00ee1"
@@ -3345,16 +3362,16 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@12.2.2:
-  version "12.2.2"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-12.2.2.tgz#5de147e132595f5709f18780d3ce515899054f99"
-  integrity sha512-5rj5t305E0jdJuM5OAS18sOkV5M/Ce9BWgXjO8P1rxv1tZ22OigqEp/Yk5+1Ht5/Ht4/AZverDrHkGQM8MdLeA==
+next-sanity@12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-12.3.0.tgz#9924428eaefa4e7c39b91ee1eeaca6aa578867a9"
+  integrity sha512-sL13/ugOQGcOwDk35kS65g6gaI45FiHAsKMvtJn33E5XCbvAXbmi44vhzSoG1SpcuCUtGKos58Ru8nydm69wfw==
   dependencies:
     "@portabletext/react" "^6.0.3"
-    "@sanity/client" "^7.20.0"
+    "@sanity/client" "^7.21.0"
     "@sanity/comlink" "^4.0.1"
     "@sanity/presentation-comlink" "^2.0.1"
-    "@sanity/preview-url-secret" "^4.0.4"
+    "@sanity/preview-url-secret" "^4.0.5"
     "@sanity/visual-editing" "^5.3.3"
     "@sanity/webhook" "^4.0.4"
     dequal "^2.0.3"
