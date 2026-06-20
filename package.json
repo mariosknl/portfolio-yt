@@ -17,7 +17,7 @@
     "next-sanity": "12.4.5",
     "react": "19.2.6",
     "react-dom": "19.2.6",
-    "react-hook-form": "7.75.0",
+    "react-hook-form": "7.80.0",
     "react-simple-typewriter": "5.0.1",
     "react-social-icons": "6.26.0"
   },
