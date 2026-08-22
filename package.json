@@ -30,7 +30,7 @@
 
     "postcss": "8.5.26",
 
-    "eslint": "10.8.1",
+    "eslint": "10.9.0",
 
     "tailwind-scrollbar": "4.0.2",
     "tailwindcss": "4.3.3",
