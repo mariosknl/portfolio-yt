@@ -1385,13 +1385,13 @@ ast-types-flow@^0.0.8:
   resolved "https://registry.yarnpkg.com/ast-types-flow/-/ast-types-flow-0.0.8.tgz#0a85e1c92695769ac13a428bb653e7538bea27d6"
   integrity sha512-OH/2E5Fg20h2aPrbe+QL8JZQFko0YZaF+j4mnQ7BGhfavO7OpSLa8a0y9sBwomHdSbkhTS8TQNayBfnW5DwbvQ==
 
-autoprefixer@10.7.0:
-  version "10.7.0"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.7.0.tgz#6442e6e00b7c6f34f60380103ec663e057f06ac8"
-  integrity sha512-M4rWhYFPp8YSAfqLDT/wRN9trfe/Z/aZLPxrLQJUQRTPrChss2T+hmgaV5770J52bLuGOMzt6Hjl8tEb6YWv5Q==
+autoprefixer@10.7.1:
+  version "10.7.1"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.7.1.tgz#8ff07e1c11b7d34dc58e1e62fabc9afa90654d25"
+  integrity sha512-31gytPEDUG/d6BMWYKP32EyyLmA0fxcR1sRuLsaOXrxq4qNVFcRLx9SUuWRqqoNzpynlxcyDHvCuOMjnWNJ9mQ==
   dependencies:
     browserslist "^4.29.6"
-    caniuse-lite "^1.0.30001826"
+    caniuse-lite "^1.0.30001828"
     fraction.js "^5.3.4"
     picocolors "^1.1.1"
     postcss-value-parser "^4.2.0"
@@ -1560,7 +1560,7 @@ caniuse-lite@^1.0.30001754:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001754.tgz#7758299d9a72cce4e6b038788a15b12b44002759"
   integrity sha512-x6OeBXueoAceOmotzx3PO4Zpt4rzpeIFsSr6AAePTZxSkXiYDUmpypEl7e2+8NCd9bD7bXjqyef8CJYPC1jfxg==
 
-caniuse-lite@^1.0.30001826:
+caniuse-lite@^1.0.30001826, caniuse-lite@^1.0.30001828:
   version "1.0.30001828"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001828.tgz#cf8d703ed2e29b917ddf2bcdb64483c604339709"
   integrity sha512-7MWeT+3DlrpuDybTWHl4Zb1Z80Z1fLLnOXuBjDXebzDVcqnEWUlV8JcbASg8B8BhcW8QT2UiR1KAtzYFIZHZYA==
