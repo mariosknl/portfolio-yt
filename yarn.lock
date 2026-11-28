@@ -736,7 +736,12 @@
   resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.2.3.tgz#0eece8c945e409335171805393b1cd9a253b75dd"
   integrity sha512-10nE7IiuXIPIf6ufSKyNwnOE75wghEollUYzkjPUAX+5oenyE5qDFUrMD5MeC+8gxZ8KS61o8sH1mpmhpWx++w==
 
-"@sanity/image-url@2.2.0":
+"@sanity/icons@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@sanity/icons/-/icons-5.4.0.tgz#6bdaef55d1d985ad04a91870243136f13335b979"
+  integrity sha512-yoLkmg+VT3ZLByf2mMYo8itpSKvmlGyBbViaXKa1HtrA2ebFHJkAKur1I16TYm5mY0glya0BxI+Ndc+gEjYtvg==
+
+"@sanity/image-url@2.2.0", "@sanity/image-url@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-2.2.0.tgz#998f928d9fe288a022496ff003fc6e1420dfd38d"
   integrity sha512-6uJnWhDJMlfwsnHwlnHpUgXCo5kmH3Wv/ERXalgRJHiBhChO/UYhIBTOxdwXTP01EkeoDARn6/+e3Vf+db+JIA==
@@ -773,13 +778,6 @@
     "@sanity/visual-editing-types" "^2.0.13"
     xstate "^5.32.5"
 
-"@sanity/preview-url-secret@^4.1.4":
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-4.1.4.tgz#0827bd8e2bd27d8b42c78feb220c2fd1dd09974e"
-  integrity sha512-FZvWDDUd9ezeKHXnNeDitjJUUrOft+SKGLstNPYo5jtsxaTyFQCmXOlD0HVGNON+FnlJ3BKaw7UyncPJPJ8hhQ==
-  dependencies:
-    "@sanity/uuid" "3.0.3"
-
 "@sanity/preview-url-secret@^4.1.5":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@sanity/preview-url-secret/-/preview-url-secret-4.1.5.tgz#7f719f8d7affe87c2128b294c0c3ac3aaf80e678"
@@ -803,17 +801,17 @@
     "@sanity/client" "^8.11.0"
     "@sanity/media-library-types" "^1.7.1"
 
-"@sanity/ui@^4.4.10":
-  version "4.4.10"
-  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.10.tgz#bfe088e1410b54837cb9e6e13bfc363e582c9742"
-  integrity sha512-Dig1n0Aba6MM4pCPH357qEkb3elFQ/YzZ1JBDySIiqmf4+S7AbI0ar5cd0KHr39v8YQV2RAAjh2F6n07SmdKwQ==
+"@sanity/ui@^4.4.11":
+  version "4.4.14"
+  resolved "https://registry.yarnpkg.com/@sanity/ui/-/ui-4.4.14.tgz#a3d7ec2f4efd3a561613284a6543f4dc3af1c8b9"
+  integrity sha512-FWPcRFG8+vPNoqskQWj93PZiIAC5xN3yTu1cYEvVVJjJEebq2lC4WFprwG1+8bm4ZkEVeTFOkrgk3tuiouYnPg==
   dependencies:
     "@floating-ui/react-dom" "^2.1.9"
     "@sanity/color" "^3.0.9"
-    "@sanity/icons" "^5.2.3"
+    "@sanity/icons" "^5.4.0"
     clsx "^2.1.1"
-    csstype "^3.2.3"
-    motion "^14.4.0"
+    csstype "3.2.3"
+    motion "^14.14.0"
     react-is "^19.3.1"
     react-refractor "^4.0.0"
     use-effect-event "^2.0.4"
@@ -851,10 +849,10 @@
   resolved "https://registry.yarnpkg.com/@sanity/visual-editing-types/-/visual-editing-types-2.1.1.tgz#34674c774487ab4c577a27f4b8d4ba7aeac3bbea"
   integrity sha512-t/Aa2HclwUHzNY/CGeQMEVDb4Dc5izI7SwdqwTeSSMc+f0hRgAa2PG3PuBOmpyCta0GGMm7febk4FMWqF+iwaA==
 
-"@sanity/visual-editing@^6.2.0":
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-6.2.0.tgz#07d52c17be23c671678734a632be3bfbffaeaca5"
-  integrity sha512-GDWOpGhluM2+GPAU0vXdEtAY/RebgBYe76cYViApFXtd0q063dGDwJ5tPOpq7kzEoyPpUWAKgOvdisZWuw4wQw==
+"@sanity/visual-editing@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@sanity/visual-editing/-/visual-editing-6.2.1.tgz#f39001c35fc3783ac41222a3c6b83e5ab17e9f6f"
+  integrity sha512-5SKy0lGIPZZZrg+7SGWA2+XeEloKeegqWxmDaK74Iai+f5GBl2QFPULOYHZmcPvItlZy9vnYvwf9z6M969ozrg==
   dependencies:
     "@sanity/comlink" "^4.0.3"
     "@sanity/icons" "^5.2.3"
@@ -862,7 +860,7 @@
     "@sanity/presentation-comlink" "^2.2.3"
     "@sanity/preview-url-secret" "^4.1.5"
     "@sanity/types" "^6.19.0"
-    "@sanity/ui" "^4.4.10"
+    "@sanity/ui" "^4.4.11"
     "@sanity/visual-editing-csm" "^3.0.19"
     "@sanity/visual-editing-types" "^2.1.1"
     "@vercel/stega" "^1.1.0"
@@ -1628,7 +1626,7 @@ cross-spawn@^7.0.6:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-csstype@^3.2.2, csstype@^3.2.3:
+csstype@3.2.3, csstype@^3.2.2:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
   integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
@@ -2500,15 +2498,6 @@ framer-motion@14.14.0:
     motion-utils "14.7.0"
     tslib "^2.4.0"
 
-framer-motion@14.8.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-14.8.0.tgz#bbc261ebe5198898d2464659228c0bee0a553b59"
-  integrity sha512-PQsSx+UlaKiyPhADjVT5wALBErJJdbMeKQS4gQx6ibOrSNni7qjqfTKMvf6YHGG8pQWi6njs7AqrIG7R2hbnxA==
-  dependencies:
-    motion-dom "14.8.0"
-    motion-utils "14.7.0"
-    tslib "^2.4.0"
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -2735,10 +2724,10 @@ graceful-fs@^4.2.4:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-groq@^6.12.0:
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-6.21.0.tgz#1156695e271f8bc28527b42c38b1488659000df3"
-  integrity sha512-xxw5Fz/8xD0neK5PnfczzkFgPSz2FVAQMxuysZhCj9TnVpkR7yI83wrdQwzikZ/pGZElrVvfGeWrDsbPwYeOcw==
+groq@^6.24.0:
+  version "6.25.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-6.25.0.tgz#bc307ce45b60d53c524de7c9e9d3c696c318c7f3"
+  integrity sha512-omyg6t6oUcqfuitJiYBQ77N5ZyPACKIfweAnnpbHOLuTqgFIF6kSdI4UDLE41jMOms+3gkemFgSYrjkqZb1pYQ==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
   version "1.0.2"
@@ -3506,32 +3495,17 @@ motion-dom@14.14.0:
   dependencies:
     motion-utils "14.7.0"
 
-motion-dom@14.8.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-14.8.0.tgz#9600229440904e7b3999fbd1695ff3f3b690b078"
-  integrity sha512-HzA41kvV7BgluM7L/XbW+gHFzDtJUbHnEsrlnIzPS9dqSfoPy9YzL6VKF7ai0TiQcykkkLUqvIxECAdwa9gwAw==
-  dependencies:
-    motion-utils "14.7.0"
-
 motion-utils@14.7.0:
   version "14.7.0"
   resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-14.7.0.tgz#8577b2fb176dcb2496812a8b314ba80b7d834c84"
   integrity sha512-woO0/Nb7ys75f94fjvQi/6leiHGvZUYkeHUPEZ3vxsV+9OpEVhkxp01x8MlRwX0zt31EqgXsKDAoBoJLC148Tw==
 
-motion@14.14.0:
+motion@14.14.0, motion@^14.14.0:
   version "14.14.0"
   resolved "https://registry.yarnpkg.com/motion/-/motion-14.14.0.tgz#956e0f88ec0a1e62eb6e21b5564dfa837c168196"
   integrity sha512-a306U6sV5VKq1abtzKiinB+UQjiY88jrsvQzWORP3WPv/DFANyoYVlPbdnmJPMEbusyPXB4GyQJVANaq/pSIYQ==
   dependencies:
     framer-motion "14.14.0"
-    tslib "^2.4.0"
-
-motion@^14.4.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/motion/-/motion-14.8.0.tgz#91d3ec32b114ebaee1d12631508a50128e1c957e"
-  integrity sha512-4KUxmgq8Lt8o/4/m8WnRicBQ+mJUMHl5Gp00o0R0+uU3NDqLwQX3GuBiqVillZl0NzOrhPuC00c5ydP6lokjmQ==
-  dependencies:
-    framer-motion "14.8.0"
     tslib "^2.4.0"
 
 ms@2.1.2:
@@ -3564,18 +3538,19 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-sanity@13.4.0:
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-13.4.0.tgz#7c6015ef7bcf98df1600e436ef3ea7d8bcf582c0"
-  integrity sha512-YliZsaWV1E/u59cByXWLIH5HgB+IbQHdcaCDowlKhkxDCCH1MZyoy+uPj28INHSUc1HULNjxtE3S7PJiVnjfvg==
+next-sanity@13.5.1:
+  version "13.5.1"
+  resolved "https://registry.yarnpkg.com/next-sanity/-/next-sanity-13.5.1.tgz#e46d7d1e310cc6052a6a7d45696dcd2ee8c27fd0"
+  integrity sha512-JMjKQQVHAHhVcJCGnzXhU85tLJ5Hh31xlTdmw05UGoiwphMp6n6JBVOfBqzyNZEH8rbGlpHsmoKp0mIoDiPtZA==
   dependencies:
     "@portabletext/react" "^7.0.1"
     "@sanity/client" "^7.28.0"
     "@sanity/generate-help-url" "^4.0.0"
-    "@sanity/preview-url-secret" "^4.1.4"
-    "@sanity/visual-editing" "^6.2.0"
+    "@sanity/image-url" "^2.2.0"
+    "@sanity/preview-url-secret" "^4.1.5"
+    "@sanity/visual-editing" "^6.2.1"
     "@sanity/webhook" "^4.0.4"
-    groq "^6.12.0"
+    groq "^6.24.0"
     history "^5.3.0"
 
 next@16.4.6:
